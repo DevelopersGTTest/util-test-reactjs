@@ -1,12 +1,10 @@
 import React from 'react';
 
-const FooApp = ( props ) => {
-    
-    console.log('props', props )
-    
+const FooApp = ({ gretting }) => {
+
     return (
         <>
-            <h1>it's works</h1>
+            <h1>it's works: { gretting } </h1>
             <p>foo, bar</p>   
         </>
     );
