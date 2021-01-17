@@ -5,4 +5,4 @@ import './index.css'
 
 const divRoot = document.querySelector('#root')
 
-ReactDOM.render(<FooApp gretting="hello jane doe" /> , divRoot );
+ReactDOM.render(<FooApp gretting={'hellow there'} /> , divRoot );
