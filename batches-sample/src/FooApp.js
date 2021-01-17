@@ -1,6 +1,9 @@
 import React from 'react';
 
-const FooApp = () => {
+const FooApp = ( props ) => {
+    
+    console.log('props', props )
+    
     return (
         <>
             <h1>it's works</h1>
